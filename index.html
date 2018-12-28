@@ -87,8 +87,8 @@
      
      function draw() {
 	 ctx.clearRect(0, 0, canvas.width, canvas.height);
-	 drawBall();
 	 drawBricks();
+	 drawBall();	 
 	 
 	 if(x + dx > canvas.width-ballRadius || x + dx < ballRadius) {
              dx = -dx;
